@@ -4,12 +4,14 @@ body {
     margin-top: 150px;
     font-size: 1.5rem;
     font-family: monospace;
-    height: 500vh;
+    height: 100vh;
     line-height: 2rem;
+    background-color: white;
+    color: black;
 }
 
-p {
-    padding-left: 4px;
+.main {
+    padding-left: 31vw;
     margin-top: 0;
 }
 
@@ -26,8 +28,29 @@ p {
 }
 
 .navbar {
-    background-color: whitesmoke;
+    background-color: lightsalmon;
     top: 0;
     left: 0;
     position: fixed;
+}
+
+.sidebar {
+    display: grid;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 96px;
+    background-color: rgb(200, 200, 200);
+    height: 100vh;
+    width: 10vw;
+    transition: 400ms ease;
+}
+
+.sidebar:hover .unhover {
+    display: none;
+}
+
+.sidebar:hover {
+    background-color: lightblue;
+    width: 30vw
 }
