@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap');
+
+body {
+    margin-top: 150px;
+    font-size: 1.5rem;
+    font-family: monospace;
+    height: 500vh;
+    line-height: 2rem;
+}
+
+p {
+    padding-left: 4px;
+    margin-top: 0;
+}
+
+.title {
+    font-family: Oswald;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
