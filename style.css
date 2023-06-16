@@ -58,7 +58,7 @@ body {
 .Bbox {
     width: 500px;
     height: 300px;
-    background-color: whitesmoke;
+    background-color: lightblue;
     border-radius: 5%;
 }
 
@@ -70,16 +70,21 @@ body {
 
 .Cbox {
     width: 500px;
-    height: 100px;
+    height: 50px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     display: grid;
     place-content: center;
 }
 
+.Cbox h5 {
+    color: lightseagreen;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
 .Cbox p {
     margin-left: 20px;
-    font-size: 2.5rem;
     line-height: 2.75rem;
     font-family: Merriweather;
     margin: 0;
