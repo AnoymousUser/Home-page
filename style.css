@@ -33,7 +33,7 @@ body {
     left: 0;
     position: fixed;
 }
-/* 
+
 .sidebar {
     display: grid;
     justify-content: center;  
@@ -53,7 +53,18 @@ body {
 .sidebar:hover {
     background-color: lightblue;
     width: 30vw
-} */
+}
+
+.sidebar .hover {
+    display: none;
+}
+
+.sidebar:hover .hover {
+    display: inherit;
+    margin-top: 10vh;
+    margin-bottom: 5vw;
+    color: black;
+}
 
 .Bbox {
     width: 500px;
