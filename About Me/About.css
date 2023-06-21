@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@500&display=swap');
+
+body {
+    margin-top: 150px;
+    font-size: 1.5rem;
+    font-family: monospace;
+    height: 75vh;
+    line-height: 2rem;
+    background-color: white;
+    color: black;
+}
+
+.title {
+    font-family: Oswald;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    z-index: 1;
+    background-color: lightsalmon;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.sidebar {
+    display: grid;
+    justify-content: center;  
+    position: fixed;
+    left: 0;
+    top: 96px;
+    background-color: rgb(200, 200, 200);
+    height: 100vh;
+    width: 10vw;
+    transition: 400ms ease;
+}
+
+.sidebar:hover .unhover {
+    display: none;
+}
+
+.sidebar:hover {
+    background-color: lightblue;
+    width: 30vw
+}
+
+.sidebar .hover {
+    display: none;
+}
+
+.sidebar:hover .hover {
+    display: inherit;
+    margin-top: 10vh;
+    margin-bottom: 5vw;
+    color: black;
+}
+
+hr {
+    margin-top: 650px;
+    margin-right: 25vw;
+    transform: rotate(90deg);
+    width: 75vh;
+}
