@@ -63,8 +63,20 @@ body {
 }
 
 hr {
-    margin-top: 650px;
+    margin-top: 350px;
     margin-right: 25vw;
     transform: rotate(90deg);
-    width: 75vh;
+    width: 80vh;
+
+    border: none;
+    height: 1.5px;
+    background-color: black;
+}
+
+main > * {
+    margin-left: 10vw;
+}
+
+main img {
+    width: 90vw;
 }
