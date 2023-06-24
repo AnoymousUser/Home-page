@@ -71,12 +71,24 @@ body {
     height: 300px;
     background-color: lightblue;
     border-radius: 5%;
+    transition: 400ms ease;
+}
+
+.Bbox:hover {
+    width: 600px;
+    transition: 400ms ease;
+}
+
+.Bbox:hover img {
+    width: 600px;
+    transition: 400ms ease;
 }
 
 .Bbox img {
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     margin-bottom: 0;
+    transition: 400ms ease;
 }
 
 .Cbox {
@@ -86,12 +98,28 @@ body {
     border-bottom-right-radius: 5%;
     display: grid;
     place-content: center;
+    transition: 400ms ease;
 }
 
 .Cbox h5 {
     color: lightseagreen;
     margin-bottom: 0;
     margin-top: 15px;
+    transition: 400ms ease;
+}
+
+.Bbox:hover .Cbox {
+    width: 600px;
+    transition: 400ms ease;
+}
+
+.Bbox:hover .Cbox > * {
+    font-size: 1.75rem;
+    transition: 400ms ease;
+}
+
+.Cbox > * {
+    transition: 400ms ease;
 }
 
 .Cbox p {
@@ -99,4 +127,5 @@ body {
     line-height: 2.75rem;
     font-family: Merriweather;
     margin: 0;
+    transition: 400ms ease;
 }
