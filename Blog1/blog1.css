@@ -37,8 +37,11 @@ body {
     color: black;
 }
 
-span {
+.underline {
     text-decoration: underline;
+}
+
+.bold {
     font-weight: bold;
 }
 
