@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body {
+    background-color: #fff3e4;
+    font-family: 'Montserrat', sans-serif;
+    height: 95vh;
+}
+
+.title {
+    height: inherit;
+    width: inherit;
+    display: grid;
+    place-content: center left;
+    font-size: 1.5rem;
+}
+
+.title > * {
+    margin-left: 3.5vw;
+    margin-bottom: 0;
+    transition: 400ms ease;
+}   
+
+.title h1 span {
+    transition: 400ms ease;
+}
+
+.title h1 span:hover {
+    color: #1e7fda;
+    transition: 400ms ease;
+}
+
+.title h2 span {
+    transition: 400ms ease;
+}
+
+.title h2 span:hover {
+    color: orangered;
+    transition: 400ms ease;
+}
