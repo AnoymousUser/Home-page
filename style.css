@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
+@keyframes color {
+	0%   { background: #5bcece; }
+	20%  { background: #53cd55; }
+	40%  { background: #bcc969; }
+	60%  { background: #ffe478; }
+	80%  { background: #70c972; }
+	100% { background: #67d3d3; }
+}
+
 body {
-    background-color: #fff3e4;
+    animation: color 9s infinite linear;
     font-family: 'Montserrat', sans-serif;
     height: 95vh;
 }
